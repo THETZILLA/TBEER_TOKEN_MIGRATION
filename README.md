@@ -23,7 +23,7 @@ You should now be able to see the new token with the new logo in your wallet:
 Go to the contract tab in your wallet.
 Paste the following information:
 - Contract Address (Old TBEER CA): 0xc028a2be843cb1153b1531399d0e591100e35de7
-- ABI/JSON Interface: (Copy the content from the “old_ABI” file added to this repository) - open on a new tab and then click on copy raw file:
+- ABI/JSON Interface: (Copy the content from the “old_ABI” file added to this repository (check on top of this page)) - open on a new tab and then click on copy raw file:
   ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/efa21202-31c3-4225-a4ba-18012bc82303)
 - Function: approve
 - Spender (New TBEER Contract Address): 0x444dc1ec5419ef6ca680592e871dc4c73c678582
@@ -40,7 +40,7 @@ For decimal amounts (e.g., 2.5 TBEER), use “migrateTokens_Decimals.”
 
 # 3.a) Migrate tokens whole:
 - Paste the new Contract address: 0x444dc1ec5419ef6ca680592e871dc4c73c678582
-- Paste the new ABI: (Copy the content from the “new_ABI” file added to this repository) - open on a new tab and then click on copy raw file:
+- Paste the new ABI: (Copy the content from the “new_ABI” file added to this repository (check on top of this page)) - open on a new tab and then click on copy raw file:
   ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/64712072-3830-4868-94b2-a6ae39fe6cec)
 - Select the function: migrateTokens_Whole.
 - Enter the amount: In this example, we will swap 5 TBEER.
