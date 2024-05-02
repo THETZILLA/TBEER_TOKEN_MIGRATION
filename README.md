@@ -49,7 +49,6 @@ For decimal amounts (e.g., 2.5 TBEER), use “migrateTokens_Decimals.”
 Here, we can observe how the new TBEER contract facilitates the token migration process. The contract is designed to swap the old TBEER tokens for new ones in the users' wallets. Additionally, it manages the swapping of tokens in the new TBEER development wallet. Below, you can find the balances before and after the token swap to verify the successful migration:
 
 <img width="486" alt="image" src="https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/5db34b83-8a99-4e19-8ca7-bbfe6ccb7d5d">
-This information demonstrates the contract's effectiveness in handling both user and developer token transactions during the migration phase.
 
 
 # 3.b) Migrate tokens with decimals (This option is more complex due to how the Theta wallet handles decimals—please see the explanation below):
