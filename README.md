@@ -18,7 +18,7 @@ You should now be able to see the new token with the new logo in your wallet:
 ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/d82d93a1-4385-4c87-972d-efa2288d2cdc)
 
 
-To do this, follow these steps:
+# To do this, follow these steps:
 
 Go to the contract tab in your wallet.
 Paste the following information:
