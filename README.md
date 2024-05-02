@@ -27,7 +27,7 @@ Paste the following information:
   ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/efa21202-31c3-4225-a4ba-18012bc82303)
 - Function: approve
 - Spender (New TBEER Contract Address): 0x444dc1ec5419ef6ca680592e871dc4c73c678582
-- Amount: Enter a very high number, as shown below—note that TBEER has 18 decimals, which is why there are so many digits: 9999999999999999999999999999999999999999999999999
+- Amount: Enter a very high number - TBEER has 18 decimals, which is why there are so many digits (copy this): 9999999999999999999999999999999999999999999999999
 
 ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/d72e4bf4-7145-4bfe-9da4-391e20418bf3)
 
@@ -52,3 +52,39 @@ Here, we can observe how the new TBEER contract facilitates the token migration 
 This information demonstrates the contract's effectiveness in handling both user and developer token transactions during the migration phase.
 
 
+# 3.b) Migrate tokens with decimals (This option is more complex due to how the Theta wallet handles decimals—please see the explanation below):
+
+- Paste the new Contract address: 0x444dc1ec5419ef6ca680592e871dc4c73c678582
+- Paste the new ABI again: (copy the content from the “new_ABI” file added to this repository).
+- Select “migrateTokens_Whole”
+- Enter the amount: In this example, we are going to swap 1.5 TBEER.
+
+  ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/cdf5ebb7-db15-4339-b523-c248b01b5844)
+
+  Calculation of the decimals:
+
+a) Count the decimal places the number has (number of digits after the decimal point) and subtract that from 18 (the number of decimals TBEER has).
+b) Remove the decimal point from the number (1.5 becomes 15).
+c) Add 17 zeros: 00000000000000000 (18 zeros minus 1 for the decimal point).
+d) Merge them together to form: 15 followed by 17 zeros (15000000000000000000).
+
+Copy the amount of zeros from here:
+
+- 18 zeros: 000000000000000000
+- 17 zeros: 00000000000000000
+- 16 zeros: 0000000000000000
+- 15 zeros: 000000000000000
+- 14 zeros: 00000000000000
+- 13 zeros: 0000000000000
+- 12 zeros: 000000000000
+- 11 zeros: 00000000000
+- 10 zeros: 0000000000
+- 09 zeros: 000000000
+- 08 zeros: 00000000
+- 07 zeros: 0000000
+- 06 zeros: 000000
+- 05 zeros: 00000
+- 04 zeros: 0000
+- 03 zeros: 000
+- 02 zeros: 00
+- 01 zero: 0
