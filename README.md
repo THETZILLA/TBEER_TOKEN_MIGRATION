@@ -2,6 +2,7 @@
 TUTORIAL ON HOW TO DO THE TOKEN MIGRATION FOR TBEER
 
 Wallet example:
+
 ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/5abb4c91-e16b-4134-9cd2-7a1743ee94ff)
 
 # 1) Add the new contract to your theta wallet:
