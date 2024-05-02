@@ -1,4 +1,4 @@
-# TBEER_TOKEN_MIGRATION
+![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/c19acb83-7c22-486f-a0c9-cdd205eb7920)# TBEER_TOKEN_MIGRATION
 TUTORIAL ON HOW TO DO THE TOKEN MIGRATION FOR TBEER
 
 Wallet example:
@@ -23,7 +23,8 @@ To do this, follow these steps:
 Go to the contract tab in your wallet.
 Paste the following information:
 - Contract Address (Old TBEER CA): 0xc028a2be843cb1153b1531399d0e591100e35de7
-- ABI/JSON Interface: (Copy the content from the “old_ABI” file added to this repository).
+- ABI/JSON Interface: (Copy the content from the “old_ABI” file added to this repository) - open on a new tab and then click on copy raw file:
+  ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/efa21202-31c3-4225-a4ba-18012bc82303)
 - Function: approve
 - Spender (New TBEER Contract Address): 0x444dc1ec5419ef6ca680592e871dc4c73c678582
 - Amount: Enter a very high number, as shown below—note that TBEER has 18 decimals, which is why there are so many digits: 9999999999999999999999999999999999999999999999999
