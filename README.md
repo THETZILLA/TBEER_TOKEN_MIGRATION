@@ -33,3 +33,21 @@ Paste the following information:
 
 Click on write, and enter your wallet password and confirm the transaction.
 
+
+# 3) Now you are ready to interact with the new contract. Choose the appropriate function based on the type of amount you are migrating:
+For whole amounts (e.g., 5 TBEER), use the function “migrateTokens_Whole.”
+For decimal amounts (e.g., 2.5 TBEER), use “migrateTokens_Decimals.”
+
+# 3.a) Migrate tokens whole:
+Paste the new Contract address: 0x444dc1ec5419ef6ca680592e871dc4c73c678582
+Paste the new ABI: (Copy the content from the “new_ABI” file added to this repository).
+Select the function: migrateTokens_Whole
+Enter the amount: In this example, we will swap 5 TBEER.
+![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/cdb8e59c-8a76-4cfe-9cc4-cd5ec79be364)
+
+Here, we can observe how the new TBEER contract facilitates the token migration process. The contract is designed to swap the old TBEER tokens for new ones in the users' wallets. Additionally, it manages the swapping of tokens in the new TBEER development wallet. Below, you can find the balances before and after the token swap to verify the successful migration:
+
+<img width="486" alt="image" src="https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/5db34b83-8a99-4e19-8ca7-bbfe6ccb7d5d">
+This information demonstrates the contract's effectiveness in handling both user and developer token transactions during the migration phase.
+
+
