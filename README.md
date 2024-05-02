@@ -55,7 +55,7 @@ Here, we can observe how the new TBEER contract facilitates the token migration 
 
 - Paste the new Contract address: 0x444dc1ec5419ef6ca680592e871dc4c73c678582
 - Paste the new ABI again: (copy the content from the “new_ABI” file added to this repository).
-- Select “migrateTokens_Whole”
+- Select “migrateTokens_Decimals”
 - Enter the amount: In this example, we are going to swap 1.5 TBEER.
 
   ![image](https://github.com/THETZILLA/TBEER_TOKEN_MIGRATION/assets/156357319/cdf5ebb7-db15-4339-b523-c248b01b5844)
