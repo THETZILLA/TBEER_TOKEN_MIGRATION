@@ -62,10 +62,10 @@ Here, we can observe how the new TBEER contract facilitates the token migration 
 
   Calculation of the decimals:
 
-a) Count the decimal places the number has (number of digits after the decimal point) and subtract that from 18 (the number of decimals TBEER has).
-b) Remove the decimal point from the number (1.5 becomes 15).
-c) Add 17 zeros: 00000000000000000 (18 zeros minus 1 for the decimal point).
-d) Merge them together to form: 15 followed by 17 zeros (15000000000000000000).
+- Count the decimal places the number has (number of digits after the decimal point) and subtract that from 18 (the number of decimals TBEER has).
+- Remove the decimal point from the number (1.5 becomes 15).
+- Add 17 zeros: 00000000000000000 (18 zeros minus 1 for the decimal point).
+- Merge them together to form: 15 followed by 17 zeros (15000000000000000000).
 
 Copy the amount of zeros from here:
 
